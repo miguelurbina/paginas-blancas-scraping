@@ -1,0 +1,25 @@
+{
+    "browser_args": [
+        "--no-sandbox",
+        "--disable-plugins-discovery",
+        "--profile-directory=Default",
+        "--disable-setuid-sandbox",
+        "--disable-extensions",
+        "--profile-directory=Default",
+        "--disable-plugins-discovery",
+        "--start-maximized",
+        "--window-position=0,0",
+        "--remote-debugging-port=0",
+        "--ignore-certificate-errors",
+        "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3582.0 Safari/537.36"
+    ],
+    "puppeteer_options": {
+        "ignoreHTTPSErrors": true,
+        "headless": false,
+        "userDataDir": "./tmp",
+        "defaultViewport": null,
+        "ignoreDefaultArgs": [
+            "--enable-automation"
+        ]
+    }
+}
